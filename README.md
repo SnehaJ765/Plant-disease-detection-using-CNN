@@ -12,8 +12,8 @@ to provide an efficient and scalable solution for plant disease detection.
 
 To get started with this project, follow these steps:
 
-1. open the **'app.py'** file in prefered workspace i.e. VSCode or Pycharm
-2. install all the requirements present in the **'requirements.txt'** on the terminal
+- open the **'app.py'** file in prefered workspace i.e. VSCode or Pycharm
+- install all the requirements present in the **'requirements.txt'** on the terminal
 
 ### 🍀Working with the NoteBook file (Plant_disease_detection(CNN).ipynb)
 - after running each and every cell in the ipynb file during the last step the whole trained model gets saved
@@ -22,8 +22,12 @@ To get started with this project, follow these steps:
 
 ### 🍀Installation and setting up dataset file:
 - To download the PlantVillage dataset using Kaggle API, follow these steps:
-  1. Install Kaggle Python package:
-  ```!pip install kaggle
+  1. Go to Kaggle webpage:
+  2. click on your profile icon -> click on settings⚙️
+  3. Scroll down to **API**
+  4. Click on 'Create new Token' -> this will install a kaggle.json file
+  5. Upload this file on the workspace which is being used for this project.
+  
 
 
 
