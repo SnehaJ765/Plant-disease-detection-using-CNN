@@ -21,6 +21,9 @@ To get started with this project, follow these steps:
 - this file path will be further pasted in the app.py file
 
 ### 🍀Installation and setting up dataset file:
+- To download the PlantVillage dataset using Kaggle API, follow these steps:
+  1. Install Kaggle Python package:
+  ```!pip install kaggle
 
 
 
