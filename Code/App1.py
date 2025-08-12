@@ -8,12 +8,12 @@ import streamlit as st
 
 
 working_dir = os.path.dirname(os.path.abspath(__file__))
-model_path = "/Users/snehajadhav/PycharmProjects/pythonProject/CNN_Project/Plant disease/plant_disease_prediction_model.h5"
+model_path = "<The whole model path.h5>"
 # Load the pre-trained model
 model = tf.keras.models.load_model(model_path)
 
 # loading the class names
-class_indices_path = "/Users/snehajadhav/PycharmProjects/pythonProject/CNN_Project/Plant disease/class_indices.json"
+class_indices_path = "<class_indices_path.json>"
 # Load class indices
 with open(class_indices_path, 'r') as f:
     class_indices = json.load(f)
